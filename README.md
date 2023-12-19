@@ -29,11 +29,18 @@ public AVL_Tree(Node root){
         root.height = -1;
         root.NumberOfNodes = 0;
     }
-}//树的唯一一个参数是'''Node root'''
+}//树的唯一一个参数是Node root
 ```
 添加节点：```public void add(Node CurrentNode)```
+
+
 删除节点：```public void delete(int CurrentNumber)```
+
+
 寻找前驱节点：```public Node FindNext(int CurrentNumber)```
+
+
 寻找后继节点：```public Node FindPrev(int CurrentNumber)```
+
 
 祝你使用愉快！:)
